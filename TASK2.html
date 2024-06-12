@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>register page</title>
+        <style>
+            
+            * {
+                margin: 0;
+                padding: 0;
+                font-family:Verdana;
+                font-size: 15px;
+            }
+            body {
+                background-color: rgb(147, 225, 255);
+            }
+
+            form {
+                background-color: rgb(244, 243, 243);
+                border:double 5px ;
+                margin-top: 70px;
+                margin-left: 250px;
+                margin-right: 250px;
+                padding: 20px;
+                border-radius: 9px;
+                margin-bottom: 50px;
+                
+            }
+         
+            #pass{
+                margin-top: 10px;
+            }
+
+            .but{
+                width: 100%;
+                background-color: rgb(17, 119, 10);
+                padding: 2px;
+                border-radius: 4px;
+                margin-top: 10px;
+                border: 1.5px solid rgb(5, 255, 5);
+            }
+
+            .but:hover{
+                background-color: rgb(255, 255, 255);
+                cursor: pointer;
+            }
+
+            .db{
+                width: 100%;
+                margin-top: 4px;
+                padding: 2px;
+                background-color: rgb(255, 255, 255);
+            }
+
+            .Head{
+                text-align: center;
+                margin-bottom: 8px;
+                font-weight: 800;
+                font-size: 20px;
+            }
+
+
+            #em{
+                margin-top: 10px;
+            }
+
+            #ag{
+                margin-top: 10px;
+            }
+            #g{
+                margin-top: 20px;
+            }
+
+            .c{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .sel{
+                margin-top: 10px;
+                width:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" class="box">
+            <h2 class="Head">Register Form</h2>
+            <div class="in" id="user">
+                <p>Enter name</p>
+                <input type="text" placeholder="Enter username" class="db" required/>
+            </div>
+
+             <div id="em">
+                <p>Enter your email </p>
+                <input type="email" placeholder="enter email" class="db" required/> 
+        
+            </div>
+
+            <div id="ag">
+                <p>Enter your age: </p>
+                <input type="number"placeholder="your age" class="db" required/>
+            </div>
+
+            <div id="g">
+                <p>Select Gender</p>
+                <input type="radio" name="gender"> Male
+                <br>
+                <input type="radio" name ="gender"> Female
+            </div>
+             
+            <div class="c">
+                <p>Select city</p>
+                <select class="sel" >
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Goa</option>
+                </select>
+            </div>
+
+            <div id="pass">
+                <p>Set your Password</p>
+                <input type="password" placeholder="Enter Password" class="db" required />
+            </div>
+
+            
+            
+            <input type="submit" value="Register" class="but"/>
+            
+        </form>
+        <p>task 2</p>
+    </body>
+</html>
